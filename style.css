@@ -1,0 +1,58 @@
+body {
+    background-image: url("src/backgroundHQ.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+header {
+    font-size: 2em;
+    text-align: center;
+    color: antiquewhite;
+}
+.task-input {
+    padding: 1rem 10rem;
+}
+.task-add-button {
+    padding: 1rem 1.3rem;
+}
+
+.task-input, .task-add-button {
+    font-size: 1rem;
+}
+.task-queue {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    max-height: 51rem;
+    overflow: auto;
+}
+.task-queue-text {
+    color: white;
+    font-size: 2em
+}
+.task {
+    border: 2px solid dimgrey;
+    padding: 1em 0.5em;
+    float:left;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    word-wrap: break-word;
+    opacity: 80%;
+
+}
+
+.task-button-done {
+    margin: auto 1em;
+    float: right;
+}
+.task-button-remove {
+    float:right;
+}
+.task-text {
+    max-width: 27rem;
+    display:inline-block;
+    font-size: 1.5rem;
+}
